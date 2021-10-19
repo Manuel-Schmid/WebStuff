@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('Dom fully loaded and parsed')
+    });
+    $(function () {
+        var $button = $('#button')
+        let points = 0;
+        let delay = 1000;
+        $button.on('mouseenter', function () {
+            var that = this;
+            setTimeout(function () {
+                $(that).css({
+                    left: Math.random()*100 + '%',
+                    top: Math.random()*100 + '%'
+                });
+            }, delay)
+        })
+        $button.on('click', function () {
+            points++;
+            delay -= 50
+            console.log("clicked, Points: " + points)
+            console.log("Verzögerung: " + delay)
+        })
+    })
+</script>
+<h1 class="title"> Wreck A Button</h1>
+<div class="content">
+    <button id="button">Wreck me!</button>
+</div>
+</body>
+</html>
