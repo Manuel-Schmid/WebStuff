@@ -1,0 +1,43 @@
+* {
+    background: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arial";
+    letter-spacing: 5px;
+}
+
+.forms {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+fieldset {
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+
+}
+
+input {
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.anmelden {
+    padding: 4px;
+    font-weight: bold;
+}

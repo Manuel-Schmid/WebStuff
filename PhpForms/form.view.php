@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SSP</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1 class="title"> Einladung Galaxy Webservices</h1>
