@@ -8,6 +8,30 @@
     "name":"Small Startup",
     "NumberOfEmployee":3,
     "ceo":null,
-    "rating":4.3
+    "rating":4.0
+  },
+  {
+    "name":"Medium Company",
+    "NumberOfEmployee": 200,
+    "ceo":"Bill",
+    "rating":3.4
+  },
+  {
+    "name":"Very Small Company",
+    "NumberOfEmployee":15,
+    "ceo":null,
+    "rating":3.2
+  },
+  {
+    "name":"National Bank",
+    "NumberOfEmployee":450,
+    "ceo":"Yelena",
+    "rating":4.1
+  },
+  {
+    "name":"Tech Company",
+    "NumberOfEmployee":3,
+    "ceo":"Elon",
+    "rating":4.7
   }
 ]
